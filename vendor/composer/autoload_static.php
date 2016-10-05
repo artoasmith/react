@@ -44,6 +44,10 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
             'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
             'Sensio\\Bundle\\DistributionBundle\\' => 33,
         ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
         'O' => 
         array (
             'OAuth2\\' => 7,
@@ -55,6 +59,10 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'M' => 
         array (
             'Monolog\\' => 8,
+        ),
+        'L' => 
+        array (
+            'Limenius\\ReactBundle\\' => 21,
         ),
         'I' => 
         array (
@@ -70,6 +78,7 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         array (
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\' => 16,
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
         ),
@@ -156,6 +165,10 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         array (
             0 => __DIR__ . '/..' . '/sensio/distribution-bundle',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'OAuth2\\' => 
         array (
             0 => __DIR__ . '/..' . '/friendsofsymfony/oauth2-php/lib',
@@ -167,6 +180,10 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Limenius\\ReactBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/limenius/react-bundle',
         ),
         'Incenteev\\ParameterHandler\\' => 
         array (
@@ -191,6 +208,10 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
         ),
         'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 
         array (
@@ -223,10 +244,6 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         ),
         'P' => 
         array (
-            'Psr\\Log\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/psr/log',
-            ),
             'PhpOption\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpoption/phpoption/src',
@@ -241,6 +258,10 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
             'Nelmio\\ApiDocBundle' => 
             array (
                 0 => __DIR__ . '/..' . '/nelmio/api-doc-bundle',
+            ),
+            'Nacmartin\\PhpExecJs' => 
+            array (
+                0 => __DIR__ . '/..' . '/nacmartin/phpexecjs/src',
             ),
         ),
         'M' => 
@@ -299,10 +320,6 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
             array (
                 0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
             ),
-            'Doctrine\\Common\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/common/lib',
-            ),
         ),
     );
 
@@ -315,6 +332,7 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'AbstractPropelTask' => __DIR__ . '/..' . '/propel/propel1/generator/lib/task/AbstractPropelTask.php',
         'AbstractPropertySetterTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/property/AbstractPropertySetterTask.php',
         'AbstractSAXParser' => __DIR__ . '/..' . '/phing/phing/classes/phing/parser/AbstractSAXParser.php',
+        'AbstractSelectorContainer' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/selectors/AbstractSelectorContainer.php',
         'AdhocTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/AdhocTask.php',
         'AdhocTaskdefTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/AdhocTaskdefTask.php',
         'AdhocTypedefTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/AdhocTypedefTask.php',
@@ -355,12 +373,14 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'BasicValidator' => __DIR__ . '/..' . '/propel/propel1/runtime/lib/validator/BasicValidator.php',
         'BatchTest' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/phpunit/BatchTest.php',
         'Behavior' => __DIR__ . '/..' . '/propel/propel1/generator/lib/model/Behavior.php',
+        'BlockForTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/BlockForTask.php',
         'BufferedReader' => __DIR__ . '/..' . '/phing/phing/classes/phing/system/io/BufferedReader.php',
         'BufferedWriter' => __DIR__ . '/..' . '/phing/phing/classes/phing/system/io/BufferedWriter.php',
         'BuildEvent' => __DIR__ . '/..' . '/phing/phing/classes/phing/BuildEvent.php',
         'BuildException' => __DIR__ . '/..' . '/phing/phing/classes/phing/BuildException.php',
         'BuildListener' => __DIR__ . '/..' . '/phing/phing/classes/phing/BuildListener.php',
         'BuildLogger' => __DIR__ . '/..' . '/phing/phing/classes/phing/BuildLogger.php',
+        'BuildTimeoutException' => __DIR__ . '/..' . '/phing/phing/classes/phing/BuildTimeoutException.php',
         'CallbackFilterIterator' => __DIR__ . '/..' . '/symfony/polyfill-php54/Resources/stubs/CallbackFilterIterator.php',
         'Capsule' => __DIR__ . '/..' . '/phing/phing/classes/phing/lib/Capsule.php',
         'CapsuleTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/CapsuleTask.php',
@@ -456,6 +476,7 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'Description' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/Description.php',
         'Diagnostics' => __DIR__ . '/..' . '/phing/phing/classes/phing/Diagnostics.php',
         'DiagnosticsTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/DiagnosticsTask.php',
+        'DifferentSelector' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/selectors/DifferentSelector.php',
         'DirSet' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/DirSet.php',
         'DirectoryScanner' => __DIR__ . '/..' . '/phing/phing/classes/phing/util/DirectoryScanner.php',
         'Dirname' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/Dirname.php',
@@ -537,6 +558,18 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'GrowlNotifyTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/GrowlNotifyTask.php',
         'HasFreeSpaceCondition' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/HasFreeSpaceCondition.php',
         'HeadFilter' => __DIR__ . '/..' . '/phing/phing/classes/phing/filters/HeadFilter.php',
+        'HgAddTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgAddTask.php',
+        'HgArchiveTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgArchiveTask.php',
+        'HgBaseTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgBaseTask.php',
+        'HgCloneTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgCloneTask.php',
+        'HgCommitTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgCommitTask.php',
+        'HgInitTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgInitTask.php',
+        'HgLogTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgLogTask.php',
+        'HgPullTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgPullTask.php',
+        'HgPushTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgPushTask.php',
+        'HgRevertTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgRevertTask.php',
+        'HgTagTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgTagTask.php',
+        'HgUpdateTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/hg/HgUpdateTask.php',
         'HtmlColorLogger' => __DIR__ . '/..' . '/phing/phing/classes/phing/listener/HtmlColorLogger.php',
         'HttpCondition' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/HttpCondition.php',
         'HttpGetTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/HttpGetTask.php',
@@ -574,6 +607,7 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'IoncubeLicenseTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/ioncube/IoncubeLicenseTask.php',
         'IsFailure' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/IsFailure.php',
         'IsFalseCondition' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/IsFalseCondition.php',
+        'IsFileSelected' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/IsFileSelected.php',
         'IsPropertyFalseCondition' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/IsPropertyFalseCondition.php',
         'IsPropertyTrueCondition' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/IsPropertyTrueCondition.php',
         'IsSetCondition' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/condition/IsSetCondition.php',
@@ -603,7 +637,9 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'MailTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/MailTask.php',
         'MajoritySelector' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/selectors/MajoritySelector.php',
         'ManifestTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/ManifestTask.php',
+        'MapEntry' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/PathConvert.php',
         'Mapper' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/Mapper.php',
+        'MappingSelector' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/selectors/MappingSelector.php',
         'MatchValidator' => __DIR__ . '/..' . '/propel/propel1/runtime/lib/validator/MatchValidator.php',
         'MatchingTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/MatchingTask.php',
         'MaxLengthValidator' => __DIR__ . '/..' . '/propel/propel1/runtime/lib/validator/MaxLengthValidator.php',
@@ -702,6 +738,7 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
         'PatchTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/PatchTask.php',
         'Path' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/Path.php',
+        'PathConvert' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/system/PathConvert.php',
         'PathElement' => __DIR__ . '/..' . '/phing/phing/classes/phing/types/Path.php',
         'PathToFileSet' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/property/PathToFileSet.php',
         'PathTokenizer' => __DIR__ . '/..' . '/phing/phing/classes/phing/util/PathTokenizer.php',
@@ -865,6 +902,7 @@ class ComposerStaticInit0bbedd1e479552789ec75dd54c5f8285
         'S3GetTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/Service/Amazon/S3/S3GetTask.php',
         'S3PutTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/Service/Amazon/S3/S3PutTask.php',
         'SQLExecTransaction' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/creole/CreoleSQLExecTask.php',
+        'SassTask' => __DIR__ . '/..' . '/phing/phing/classes/phing/tasks/ext/SassTask.php',
         'SchemaException' => __DIR__ . '/..' . '/propel/propel1/generator/lib/exception/SchemaException.php',
         'SchemaParser' => __DIR__ . '/..' . '/propel/propel1/generator/lib/reverse/SchemaParser.php',
         'ScopedElement' => __DIR__ . '/..' . '/propel/propel1/generator/lib/model/ScopedElement.php',

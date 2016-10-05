@@ -22,37 +22,5 @@ use Symfony\Component\Security\Core\SecurityContext;
 
 class DefaultController extends BaseController
 {
-    /**
-     * @return \Symfony\Component\HttpFoundation\Response
-     * @POST("/t")
-     * @Security("is_granted('ROLE_USER')")
-     */
-    public function getDemosAction(Request $request)
-    {
-        /**
-         * @var User $user
-         */
-        $user = $this->get('security.context')->getToken()->getUser();
-
-        $data = array("hello" => $user, 'l'=>$request->getLocale());
-        $view = $this->view($data);
-        return $this->handleView($view);
-    }
-
-    /**
-     * @GET("/")
-     */
-    public function getAngularAction(Request $request)
-    {
-        return $this->view(['url'=>'http://'.$request->server->get('SERVER_NAME').$request->server->get('REQUEST_URI')],200)->setFormat('html')->setTemplate('UserBundle:Default:index.html.twig');
-    }
-
-    /**
-     * @GET("/user/{id}")
-     */
-    public function getTAngularAction(Request $request,$id=0)
-    {
-        return $this->view(['url'=>'http://'.$request->server->get('SERVER_NAME').$request->server->get('REQUEST_URI')],200)->setFormat('html')->setTemplate('UserBundle:Default:index.html.twig');
-    }
 
 }

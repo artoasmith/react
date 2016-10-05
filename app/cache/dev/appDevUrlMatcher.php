@@ -116,43 +116,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
         not_nelmio_api_doc_index:
 
-        // user_default_getdemos
-        if ($pathinfo === '/t') {
-            if ($this->context->getMethod() != 'POST') {
-                $allow[] = 'POST';
-                goto not_user_default_getdemos;
-            }
-
-            return array (  '_controller' => 'UserBundle\\Controller\\DefaultController::getDemosAction',  '_route' => 'user_default_getdemos',);
-        }
-        not_user_default_getdemos:
-
-        // user_default_getangular
-        if (rtrim($pathinfo, '/') === '') {
-            if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                $allow = array_merge($allow, array('GET', 'HEAD'));
-                goto not_user_default_getangular;
-            }
-
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'user_default_getangular');
-            }
-
-            return array (  '_controller' => 'UserBundle\\Controller\\DefaultController::getAngularAction',  '_route' => 'user_default_getangular',);
-        }
-        not_user_default_getangular:
-
-        // user_default_gettangular
-        if (0 === strpos($pathinfo, '/user') && preg_match('#^/user(?:/(?P<id>[^/]++))?$#s', $pathinfo, $matches)) {
-            if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
-                $allow = array_merge($allow, array('GET', 'HEAD'));
-                goto not_user_default_gettangular;
-            }
-
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'user_default_gettangular')), array (  'id' => 0,  '_controller' => 'UserBundle\\Controller\\DefaultController::getTAngularAction',));
-        }
-        not_user_default_gettangular:
-
         // admin_default_index
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

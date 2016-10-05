@@ -8,10 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'SensioLabs\\Security' => array($vendorDir . '/sensiolabs/security-checker'),
-    'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src'),
     'PhpCollection' => array($vendorDir . '/phpcollection/phpcollection/src'),
     'Nelmio\\ApiDocBundle' => array($vendorDir . '/nelmio/api-doc-bundle'),
+    'Nacmartin\\PhpExecJs' => array($vendorDir . '/nacmartin/phpexecjs/src'),
     'Michelf' => array($vendorDir . '/michelf/php-markdown'),
     'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
     'JsonpCallbackValidator' => array($vendorDir . '/willdurand/jsonp-callback-validator/src'),
@@ -24,5 +24,4 @@ return array(
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
     'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
-    'Doctrine\\Common\\' => array($vendorDir . '/doctrine/common/lib'),
 );
