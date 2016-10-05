@@ -1,0 +1,8 @@
+b647f6,127.0.0.1,GET,http://city.loc/app_dev.php/documentation,1474878044,,200
+4bc80b,127.0.0.1,GET,http://city.loc/app_dev.php/e,1474890632,6ade32,200
+6ade32,127.0.0.1,GET,http://city.loc/app_dev.php/e,1474890632,,404
+a02bf3,127.0.0.1,GET,http://city.loc/app_dev.php/e?_format=html,1474890647,4b8390,200
+4b8390,127.0.0.1,GET,http://city.loc/app_dev.php/e?_format=html,1474890647,,404
+8fbcd3,127.0.0.1,GET,http://city.loc/app_dev.php/e?_format=html,1474891132,6a8c73,200
+6a8c73,127.0.0.1,GET,http://city.loc/app_dev.php/e?_format=html,1474891132,,404
+e01c41,127.0.0.1,GET,http://city.loc/app_dev.php/documentation,1474956754,,200
