@@ -24,29 +24,5 @@ class DefaultControllerTest extends WebTestCase
 
         $resp = json_decode($client->getResponse()->getContent(),true);
         $this->assertEquals(['authClient', 'authToken'],array_keys($resp));
-
-        $client->request(
-            'POST',
-            '/authClient',
-            [
-                'authClient'=>$resp['authClient'],
-                'authToken'=>$resp['authToken']
-            ]
-        );
-
-        $respClient = json_decode($client->getResponse()->getContent(),true);
-        $this->assertEquals(['clientId','clientSecret','accessToken'],array_keys($respClient));
-
-        $client->request(
-            'POST',
-            '/refreshToken',
-            [
-                'clientId'=>$respClient['clientId'],
-                'clientSecret'=>$respClient['clientSecret']
-            ]
-        );
-
-        $respClient = json_decode($client->getResponse()->getContent(),true);
-        $this->assertEquals(['clientId','clientSecret','accessToken'],array_keys($respClient));
     }
 }

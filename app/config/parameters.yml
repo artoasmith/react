@@ -2,7 +2,7 @@
 parameters:
     database_host: 185.69.152.29
     database_port: null
-    database_name: city
+    database_name: react_test
     database_user: cityuser
     database_password: uVVlZJRb
     mailer_transport: smtp

@@ -2,7 +2,6 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
-    - { resource: "@AdminBundle/Resources/config/services.yml" }
     - { resource: "@UserBundle/Resources/config/services.yml" }
     - { resource: "@FileBundle/Resources/config/services.yml" }
 
@@ -10,6 +9,7 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: ru
+    locale.available: [ru,en]
     auth_token_lifetime:   30
     access_token_lifetime: 900
     client_token_lifetime: 1209600
@@ -81,7 +81,8 @@ fos_rest:
     format_listener:
         enabled: true
         rules:
-            - { path: '^/', priorities: ['json'], fallback_format: json, prefer_extension: false }
+            - { path: '^/api', priorities: ['json'], fallback_format: json, prefer_extension: false }
+            - { path: '^/', priorities: ['html'], fallback_format: html, prefer_extension: false }
 
     view:
         view_response_listener: 'force'
@@ -125,27 +126,3 @@ fos_oauth_server:
     service:
         user_provider: fos_user.user_manager             # This property will be used when valid credentials
 
-limenius_react:
-    # Other options are "server_side" and "client_side"
-    default_rendering: "both"
-    serverside_rendering:
-        # In case of error in server-side rendering, throw exception
-        fail_loud: false
-        # Replay every console.log message produced during server-side rendering
-        # in the JavaScript console
-        # Note that if enabled it will throw a (harmless) React warning
-        trace: false
-        # Mode can be `"phpexecjs"` (to execute Js from PHP using PhpExecJs),
-        # or `"external"` (to rely on an external node.js server)
-        # Default is `"phpexecjs"`
-        mode: "phpexecjs"
-        # Location of the server bundle, that contains React and React on Rails.
-        # null will default to `%kernel.root_dir%/Resources/webpack/server-bundle.js`
-        # Only used with mode `phpexecjs`
-        server_bundle_path: null
-        # Only used with mode `external`
-        # Location of the unix socket to communicate with a dummy node.js server
-        # Such as the one at
-        # https://github.com/Limenius/symfony-react-sandbox/blob/master/app/Resources/node-server/server.js
-        # null will default to `%kernel.root_dir%/Resources/node-server/node.sock
-        server_socket_path: null

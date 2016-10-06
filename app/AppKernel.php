@@ -20,9 +20,7 @@ class AppKernel extends Kernel
             new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
-            new Limenius\ReactBundle\LimeniusReactBundle(),
 
-            new AdminBundle\AdminBundle(),
             new UserBundle\UserBundle(),
             new ApiErrorBundle\ApiErrorBundle(),
             new FileBundle\FileBundle(),

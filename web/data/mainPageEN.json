@@ -1,0 +1,439 @@
+{    
+    "lang": "en",
+    "Footer": {
+        "navigation": [
+            {
+                "title" : "О компании",
+                "linkTo": "/About"
+            },
+            {
+                "title" : "Новости",
+                "linkTo": "/News"
+            },
+            {
+                "title" : "Материалы",
+                "linkTo": "/Materials"
+            },
+            {
+                "title" : "Изделия",
+                "linkTo": "/Products"
+            },
+            {
+                "title" : "Проэкты",
+                "linkTo": "/Projects"
+            },
+            {
+                "title" : "Сотрудничество",
+                "linkTo": "/Collaboration"
+            },
+            {
+                "title" : "Качество продукции",
+                "linkTo": "/Quality"
+            },
+            {
+                "title" : "Библиотека",
+                "linkTo": "Library"
+            }
+        ],
+        "contacts": [
+            { "tell" : "Тел +49.221.3550.345-0" },
+            { "tell" : "Факс +49.221.3550.345-9" },
+            { "tell" : "mail@elastique.de" }
+              
+        ],
+        "adress": "119002, Москва, <br/> Плотников переулок, 19/38 <br/> строение 2"
+    },
+    "Form": {
+        "centerTitle": "связь с нами",
+        "contact": [
+            {
+                "title": "Телефон",
+                "content" : "+7 (495) 995 89 85"
+            },
+            {
+                "title": "E-mail",
+                "content" : "rucons@rucons.ru"
+            }
+        ],
+        "socials":[
+            {
+                "linkTo": "https://vk.com",
+                "image": "../images/vk.png"
+            },
+            {
+                "linkTo": "https://twitter.com",
+                "image": "../images/twitter.png"
+            },
+            {
+                "linkTo": "https://www.instagram.com/",
+                "image": "../images/instagram.png"
+            },
+            {
+                "linkTo": "https://www.facebook.com/",
+                "image": "../images/facebook.png"
+            }            
+        ],
+        "formcontent":{
+            "namelPH": "Имя",
+            "phonePH": "Телефон",
+            "emailPH": "e-mail",
+            "textareaPH": "сообщение",
+            "buttonPH": "отправить"
+        }
+    },
+    "Marerial": {
+        "centerTitle": "материалы",
+        "link":{
+            "linkTo": "Marerial",
+            "linkText": "смотреть все"
+        },
+        "items":[
+            {
+                "id": "111",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials01.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "111111111"
+            },
+            {
+                "id": "222",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials02.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            },
+            {
+                "id": "333",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials03.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            },
+            {
+                "id": "444",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials04.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            },
+            {
+                "id": "555",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials01.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            },
+            {
+                "id": "666",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials02.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            },
+            {
+                "id": "777",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials03.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            },
+            {
+                "id": "888",
+                "relation": [ "qwe", "eee", "rrr", "sss" ],
+                "imgLink": "../images/materials04.jpg",
+                "linkTo": "Material/id",
+                "title": "VERDE ITALIA",
+                "text": "Верде Италия"
+            }
+
+        ],
+        "tabs": [
+            {
+                "relation" : "qwe1",
+                "title": "Мармор"
+            },
+            {
+                "relation" : "qwe2",
+                "title": "Гранит"
+            },
+            {
+                "relation" : "qwe3",
+                "title": "Кварцит"
+            },
+            {
+                "relation" : "qwe4",
+                "title": "Алеврит"
+            },
+            {
+                "relation" : "qwe5",
+                "title": "Брекчия"
+            },
+            {
+                "relation" : "qwe6",
+                "title": "Глина"
+            },
+            {
+                "relation" : "qwe7",
+                "title": "мрамор"
+            },
+            {
+                "relation" : "qwe8",
+                "title": "Кварцит"
+            }
+
+        ] 
+    },
+    "Library":{
+        "centerTitle": "последние статьи из библиотеки",
+        "link":{
+            "linkTo": "Library",
+            "linkText": "библиотека"
+        },
+        "items": [
+            {
+                "id": "111",
+                "imgLink": "../images/last-news01.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Проект подходит  к завершению ",
+                "linkTo": "Library/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "222",
+                "imgLink": "../images/last-news02.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Компания ждет гостей 1 октября ",
+                "linkTo": "Library/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "333",
+                "imgLink": "../images/last-news03.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Компания Margraf S.p.a приступила к реконструкции здания",
+                "linkTo": "Library/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "444",
+                "imgLink": "../images/last-news04.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "В Москве открылся шоу-рум «Made in Italy»",
+                "linkTo": "Library/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            }
+        ]
+    },
+    "Partner":{
+        "centerTitle": "партнеры",
+        "link":{
+            "linkTo": "Library",
+            "linkText": "linkText"
+        },
+        "items":[
+            {
+                "id": "541",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-1.png"
+            },
+            {
+                "id": "54",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-2.png"
+            },
+            {
+                "id": "542",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-3.png"
+            },
+            {
+                "id": "543",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-4.png"
+            },
+            {
+                "id": "544",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-1.png"
+            },
+            {
+                "id": "545",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-2.png"
+            },
+            {
+                "id": "546",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-3.png"
+            },
+            {
+                "id": "547",
+                "linkTo": "http://puma.com",
+                "img": "../images/partners-img-4.png"
+            }
+
+        ]
+    },
+    "Quality":{
+        "centerTitle": "качество продукции",
+        "link":{
+            "linkTo": "Quality",
+            "linkText": "смотреть все"
+        },
+        "items":[
+            {
+                "id": "1",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "2",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "3",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "4",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "5",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "6",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "7",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "8",
+                "img": "../images/quality-image01.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Quality/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            }
+        ]
+    },
+    "Stones":{
+        "centerTitle": "разновидности обработки камня",
+        "link":{
+            "linkTo": "Stones",
+            "linkText": "смотреть все"
+        },
+        "items": [
+            {
+                "id": "121",
+                "img": "../images/processing-img-1.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое, однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Stones/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "122",
+                "img": "../images/processing-img-2.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое, однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Stones/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "123",
+                "img": "../images/processing-img-3.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое, однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Stones/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "124",
+                "img": "../images/processing-img-4.jpg",
+                "title": "Лазерная резка",
+                "text": "Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое, однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.",
+                "linkTo": "Stones/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            }
+        ]
+    },
+    "News":{
+        "centerTitle": "НОВОСТИ",
+        "link":{
+            "linkTo": "News",
+            "linkText": "смотреть все"
+        },
+        "items": [
+            {
+                "id": "111",
+                "imgLink": "../images/last-news01.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Проект подходит  к завершению ",
+                "linkTo": "News/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "222",
+                "imgLink": "../images/last-news02.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Проект подходит  к завершению ",
+                "linkTo": "News/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "333",
+                "imgLink": "../images/last-news03.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Проект подходит  к завершению ",
+                "linkTo": "News/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            },
+            {
+                "id": "444",
+                "imgLink": "../images/last-news04.jpg",
+                "date": "26 ИЮНЯ",
+                "title": "Проект подходит  к завершению ",
+                "linkTo": "News/id",
+                "linkText": "ЧИТАТЬ ПОДРОБНЕЕ"
+            }
+        ]
+    }
+}
