@@ -21,9 +21,19 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
 
+            // These are bundles the SonataAdminBundle relies on
+            new Sonata\CoreBundle\SonataCoreBundle(),
+            new Sonata\BlockBundle\SonataBlockBundle(),
+            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+
+            // the storage and SonataAdminBundle
+            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+            new Sonata\AdminBundle\SonataAdminBundle(),
+
             new UserBundle\UserBundle(),
             new ApiErrorBundle\ApiErrorBundle(),
             new FileBundle\FileBundle(),
+            new MramorBundle\MramorBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

@@ -3,6 +3,7 @@ app/bootstrap.php.cache
 app/cache
 app/logs
 web/build
+web/bundles
 node_modules
 vendor
 .idea

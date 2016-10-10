@@ -26,33 +26,42 @@ class DefaultController extends BaseController
      * @Route("/{_locale}/",
      *     requirements={
      *         "_locale": "en|ru|"
-     *     }
+     *     }, name="main"
      * )
      */
     public function indexAction(Request $request)
     {
         $userdemo = $this->getDoctrine()->getRepository('UserBundle:User')->find(1);
         $errors = $this->get('validator')->validate($userdemo,null,array($request->getLocale())); // validation by language
-        //var_dump($this->serialize(['user'=>$userdemo,'test'=>43],$request->getLocale(),'array')); // serialize by language
-        //exit();
+       // var_dump($this->serialize(['user'=>$userdemo,'test'=>43],$request->getLocale(),'array')); // serialize by language
+       // exit();
 
         return $this->render('UserBundle:Default:index.html.twig');
     }
 
     /**
-     * @Route("/t3/")
-     * @Route("/{_locale}/t3/",
-     *     requirements={
-     *         "_locale": "en|ru|"
-     *     })
+     * @Route("/login", name="login")
      */
-    public function indexwAction(Request $request)
+    public function loginAction(Request $request)
     {
-        $userdemo = $this->getDoctrine()->getRepository('UserBundle:User')->findAll();
-        echo $request->getLocale();
-        var_dump($this->getParameter('locale.available'));
-        //var_dump($this->serialize($userdemo,$request->getLocale()));
+        $authenticationUtils = $this->get('security.authentication_utils');
 
-        return $this->render('UserBundle:Default:index.html.twig');
+        // get the login error if there is one
+        $error = $authenticationUtils->getLastAuthenticationError();
+
+        // last username entered by the user
+        $lastUsername = $authenticationUtils->getLastUsername();
+
+        return $this->render('security/login.html.twig', array(
+            'last_username' => $lastUsername,
+            'error'         => $error
+        ));
+    }
+
+    /**
+     * @Route("/error/403", name="access_denied_url")
+     */
+    public function accessDenied(){
+        echo 'ACCES DENIED (text from UserBundle:DecfaultController.accessDenied)'; exit();
     }
 }
