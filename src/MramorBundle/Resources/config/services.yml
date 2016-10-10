@@ -1,0 +1,6 @@
+services:
+    admin.mramor.news:
+        class: MramorBundle\Admin\NewsAdmin
+        arguments: [~, MramorBundle\Entity\News, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: mramor.news, group: info.group }

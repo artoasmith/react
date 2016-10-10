@@ -1,0 +1,102 @@
+{    
+    "lang": "ru",
+    "langPack": 
+    {
+        "lang": [
+            {
+                "title": "РУС",
+                "linkTo": "ru"
+            },
+            {
+                "title": "ENG",
+                "linkTo": "en"
+            }
+        ],
+        "leftTitle": "ГАЛЕРЕЯ МАТЕРИАЛОВ",
+        "rightTitle": "ФИЛОСОФИЯ КАМНЯ",
+        "navigation": [
+            {
+                "title" : "о компании",
+                "linkTo": "/About"
+            },
+            {
+                "title" : " новости",
+                "linkTo": "/News"
+            },
+            {
+                "title" : "материалы",
+                "linkTo": "/Materials"
+            },
+            {
+                "title" : "изделия",
+                "linkTo": "/Products"
+            },
+            {
+                "title" : "проэкты",
+                "linkTo": "/Projects"
+            },
+            {
+                "title" : "сотрудничество",
+                "linkTo": "/Collaboration"
+            },
+            {
+                "title" : "качество продукции",
+                "linkTo": "/Quality"
+            },
+            {
+                "title" : "библиотека",
+                "linkTo": "Library"
+            }
+        ],
+        "slider":[
+            {
+                "slideId": "1",
+                "bgImage": "./images/banner-main.jpg",
+                "title": "лучший <br/> МРАМОР <br/> ИТАЛИИ",
+                "subTitle": "Margraf Industria Marmi Vicentini выражает подлинную культуру качества, которая включает в себя всю производственную систему, начиная от добычи сырья и до пристального внимания ко всем деталям дальнейшей обработки.",
+                "buttonTitle": "создать свой проэкт",
+                "linkTo": "/Create",
+                "bgStaff": {
+                    "name": "Жилой квартал в Хамовниках",
+                    "creator": "Архитектор : Дмитрий Лопухов"
+                }
+            },
+            {
+                "slideId": "2",
+                "bgImage": "./images/banner-main2.jpg",
+                "title": "лучший <br/> МРАМОР <br/> ИТАЛИИ",
+                "subTitle": "Margraf Industria Marmi Vicentini выражает подлинную культуру качества, которая включает в себя всю производственную систему, начиная от добычи сырья и до пристального внимания ко всем деталям дальнейшей обработки.",
+                "buttonTitle": "создать свой проэкт",
+                "linkTo": "/Create",
+                "bgStaff": {
+                    "name": "Жилой квартал в Хамовниках",
+                    "creator": "Архитектор : Дмитрий Лопухов"
+                }
+            },
+            {
+                "slideId": "3",
+                "bgImage": "./images/banner-main.jpg",
+                "title": "лучший <br/> МРАМОР <br/> ИТАЛИИ",
+                "subTitle": "Margraf Industria Marmi Vicentini выражает подлинную культуру качества, которая включает в себя всю производственную систему, начиная от добычи сырья и до пристального внимания ко всем деталям дальнейшей обработки.",
+                "buttonTitle": "создать свой проэкт",
+                "linkTo": "/Create",
+                "bgStaff": {
+                    "name": "Жилой квартал в Хамовниках",
+                    "creator": "Архитектор : Дмитрий Лопухов"
+                }
+            },
+            {
+                "slideId": "4",
+                "bgImage": "./images/banner-main2.jpg",
+                "title": "лучший <br/> МРАМОР <br/> ИТАЛИИ",
+                "subTitle": "Margraf Industria Marmi Vicentini выражает подлинную культуру качества, которая включает в себя всю производственную систему, начиная от добычи сырья и до пристального внимания ко всем деталям дальнейшей обработки.",
+                "buttonTitle": "создать свой проэкт",
+                "linkTo": "/Create",
+                "bgStaff": {
+                    "name": "Жилой квартал в Хамовниках",
+                    "creator": "Архитектор : Дмитрий Лопухов"
+                }
+            }
+        ]
+    }
+}
