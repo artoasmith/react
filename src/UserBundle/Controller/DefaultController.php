@@ -33,8 +33,6 @@ class DefaultController extends BaseController
     {
         $userdemo = $this->getDoctrine()->getRepository('UserBundle:User')->find(1);
         $errors = $this->get('validator')->validate($userdemo,null,array($request->getLocale())); // validation by language
-       // var_dump($this->serialize(['user'=>$userdemo,'test'=>43],$request->getLocale(),'array')); // serialize by language
-       // exit();
 
         return $this->render('UserBundle:Default:index.html.twig');
     }
@@ -62,6 +60,6 @@ class DefaultController extends BaseController
      * @Route("/error/403", name="access_denied_url")
      */
     public function accessDenied(){
-        echo 'ACCES DENIED (text from UserBundle:DecfaultController.accessDenied)'; exit();
+        echo 'ACCESS DENIED (text from UserBundle:DecfaultController.accessDenied)'; exit();
     }
 }

@@ -5,5 +5,5 @@ app/logs
 web/build
 web/bundles
 node_modules
-vendor
+vendor/*
 .idea
